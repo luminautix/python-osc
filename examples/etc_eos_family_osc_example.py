@@ -1,4 +1,7 @@
-""" OSC client for ETC EOS Family Lighting Control """
+""" OSC client for ETC EOS Family Lighting Control 
+
+This code works only after special changes to the original python-osc library
+"""
 
 from pythonosc import osc_message_builder
 from pythonosc import udp_client
